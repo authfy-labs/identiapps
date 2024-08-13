@@ -4,7 +4,7 @@ import {
   PiClipboardLight,
   PiHouseFill,
   PiShareLight,
-  PiUserCheck,
+  PiSealCheck,
 } from "react-icons/pi";
 import Image from "next/image";
 
@@ -21,7 +21,7 @@ const items = [
     image: "/images/company-wiki.png",
   },
   {
-    icon: <PiUserCheck className="text-2xl text-sky-600" />,
+    icon: <PiSealCheck className="text-2xl text-sky-600" />,
     name: " Secure Digital Identity",
     button: (
       <div className="text-sky-500 flex items-center  hover:cursor-pointer pt-6">
